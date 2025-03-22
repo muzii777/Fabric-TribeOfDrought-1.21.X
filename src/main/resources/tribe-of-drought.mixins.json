@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.muzii.trbeofdrought.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

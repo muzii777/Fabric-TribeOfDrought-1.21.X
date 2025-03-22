@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tribe-of-drought",
+	"version": "${version}",
+	"name": "Tribe Of Drought",
+	"description": "I'm never thinking.",
+	"authors": [
+		"Muzii"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/muzii777"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tribe-of-drought/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.muzii.trbeofdrought.TribeOfDrought"
+		],
+		"fabric-datagen": [
+			"com.muzii.trbeofdrought.TribeOfDroughtDataGenerator"
+		],
+		"client": [
+			"com.muzii.tribeofdrought.TribeOfDroughtClient"
+		]
+	},
+	"mixins": [
+		"tribe-of-drought.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
